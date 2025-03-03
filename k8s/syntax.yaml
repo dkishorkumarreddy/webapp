@@ -14,5 +14,10 @@ student:
   city: bhilai
   state: chhattisgarh
 
+# list
+courses:
+  -aws
+  -azure
+  -devops
 
     

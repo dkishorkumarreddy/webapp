@@ -1,1 +1,16 @@
 #- comment this is my newbranch k8s
+
+# correct representation of key values
+key: value
+
+# simple key value
+name: kishor
+city: bhilai
+state: chhattisgarh
+
+# dictionary
+student:
+    name: kishor
+    city: bhilai
+    state: chhattisgarh
+    

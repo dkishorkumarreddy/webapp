@@ -10,7 +10,4 @@ spec:
     ports:
     - containerport: 80
 
-  - name: c2
-    image: nginx
-    ports:
-    - containerport: 80
+  

@@ -1,0 +1,5 @@
+# for kubernetes we have top four level yaml items
+apiversion:
+kind:
+metadata:
+spec:

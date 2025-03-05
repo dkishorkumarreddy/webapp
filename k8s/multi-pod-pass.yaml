@@ -7,8 +7,8 @@ spec:
   - name: c1
     image: nginx
     ports:
-    - containerport: 80
-     - name: c2
+  -  containerport: 80
+  - name: c2
     image:  ravi2krishna/nodejs-api
     ports:
     - containerport: 8080

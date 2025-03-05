@@ -1,13 +1,14 @@
+# pod template
 apiversion: v1
-metadata: pod
-kind: 
+kind: pod
+metadata:
   name: multi-pod-pass
 spec:
-  container:
+  containers:
   - name: c1
     image: nginx
     ports:
-  -  containerport: 80
+    -  containerport: 80
   - name: c2
     image:  ravi2krishna/nodejs-api
     ports:

@@ -1,7 +1,7 @@
 #pod template
-apiversion: v1
-metadata: pod
-kind: 
+apiversion: v1 
+kind: pod
+metadata:
   name: nginx-pod
 spec:
   container:
@@ -9,5 +9,3 @@ spec:
     image: nginx
     ports:
     - containerport: 80
-
-  

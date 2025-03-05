@@ -1,0 +1,14 @@
+apiversion: v1
+metadata: pod
+kind: 
+  name: multi-pod-pass
+spec:
+  container:
+  - name: c1
+    image: nginx
+    ports:
+    - containerport: 80
+     - name: c2
+    image:  ravi2krishna/nodejs-api
+    ports:
+    - containerport: 8080

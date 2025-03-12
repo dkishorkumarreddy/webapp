@@ -1,8 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata: 
-  name: nginx
-        - containerPort: 80 
+  name: nginx 
 spec:
   replicas: 1
   selector:

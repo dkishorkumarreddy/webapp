@@ -1,7 +1,7 @@
 piVersion: apps/v1
 kind: Deployment
 metadata: 
-  name: nginx 
+  name: deployment-example
 spec:
   replicas: 1
   selector:

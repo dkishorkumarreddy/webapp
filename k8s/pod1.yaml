@@ -1,10 +1,10 @@
 #pod template
 apiversion: v1 
-kind: pod
+kind: Pod
 metadata:
   name: nginx-pod
 spec:
-  container:
+  containers:
   - name: c1
     image: nginx
     ports:
